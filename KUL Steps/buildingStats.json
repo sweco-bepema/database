@@ -1,0 +1,12 @@
+{
+  "ReferenceFloorArea": 6570.0,
+  "ReferenceVolume": 0.0,
+  "v50": 3.0,
+  "V2": 0.103,
+  "Name": "KUL",
+  "Number": "211-055",
+  "DHW_Daily": 0.0,
+  "AHU_HR": 1,
+  "HR_Efficiency": 75.0,
+  "SFP": 1.0
+}
