@@ -4,20 +4,23 @@ import json
 
 repo_path = Path.cwd()
 
-dict = dict()
+list_elements = []
 
 for folder in os.listdir(repo_path):
     print (folder)
     if '.py' in folder or 'vs' in folder or '.git' in folder or '.json' in folder: continue
 
     files = os.listdir(os.path.join(repo_path, folder))
-    dict[folder] = []
-
+    d = dict()
+    d['Name'] = folder
+    d['Files'] = []
     for file in files:
-        dict[folder].append(file)
+        d['Files'].append(file)
+
+    list_elements.append(d)
 
 print ("\ndictionary content:\n")
-print (dict)
+print (list_elements)
 
 f = open(os.path.join(repo_path, 'catalog.json'),'w')
-json.dump(dict, f, indent = 2, separators=(',', ":"))
+json.dump(list_elements, f, indent = 2, separators=(',', ":"))
