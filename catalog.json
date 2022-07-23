@@ -31,6 +31,8 @@
   {
     "Name":"Linter",
     "Files":[
+      "buildingEnvelope.json",
+      "buildingStats.json",
       "profiles.json",
       "RevitInput.csv"
     ]

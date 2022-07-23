@@ -1,0 +1,12 @@
+{
+  "ReferenceFloorArea": 921.0,
+  "ReferenceVolume": 3500.0,
+  "v50": 5.0,
+  "V2": 0.171,
+  "Name": "Linter",
+  "Number": "17080006",
+  "DHW_Daily": 0.0,
+  "AHU_HR": 0,
+  "HR_Efficiency": 80.0,
+  "SFP": 1.0
+}
